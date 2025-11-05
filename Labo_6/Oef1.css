@@ -1,0 +1,19 @@
+/*
+oef 1 herschrijving
+.menuitem {
+
+    display:inline-block;
+    width:150px;
+}
+.menuitem > a {
+    color:red;
+}
+*/
+
+li a{
+    display:inline-block;
+    width:150px;
+}
+ul > li > a {
+    color:red;
+}
