@@ -1,0 +1,35 @@
+body {
+    font-family: helvetica,sans-serif ;
+}
+h1{
+    font-size: 80px;
+    color:#EDF2F4;
+}
+h1{
+    font-size: 40px;
+    color:#EDF2F4;
+}
+
+header{
+    color:#8D99AE;
+    background-color: #2B2D42;
+}
+
+footer{
+    padding: 30px ;
+    color:#8D99AE;
+    background-color: #2B2D42;
+}
+
+main/*education*/{
+
+}
+
+
+
+/*
+Lettertype: Helvetica
+Lettergrootte h1: 80px
+Lettergrootte h2: 40px
+Kleur h1 en h2 in header: #EDF2F4
+*/
