@@ -1,0 +1,6 @@
+.checked{
+    background-image: url("Labo_6/Images/checked icon.png");
+    background-repeat: no-repeat;
+    background-position: left ;
+    padding-left: 15px;
+}
