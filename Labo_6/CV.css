@@ -18,6 +18,7 @@ header{
     color:#8D99AE;
     background-color: #2B2D42;
     margin-bottom: 10px;
+    padding: 30px;
 }
 
 footer{
@@ -29,6 +30,7 @@ footer{
 
 
 main/*education*/{
+    background-color:#8D99AE;
     padding: 30px;
 }
 
