@@ -5,24 +5,31 @@ h1{
     font-size: 80px;
     color:#EDF2F4;
 }
-h1{
+h2{
     font-size: 40px;
     color:#EDF2F4;
+}
+
+a{
+    color:#EF233C;
 }
 
 header{
     color:#8D99AE;
     background-color: #2B2D42;
+    margin-bottom: 10px;
 }
 
 footer{
     padding: 30px ;
     color:#8D99AE;
     background-color: #2B2D42;
+    margin-top: 10px;
 }
 
-main/*education*/{
 
+main/*education*/{
+    padding: 30px;
 }
 
 
