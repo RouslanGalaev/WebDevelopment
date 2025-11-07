@@ -1,6 +1,19 @@
-.checked{
-    background-image: url("Labo_6/Images/checked icon.png");
+.checklist{
+    list-style-type: none;
+    padding: 0;
+}
+
+.checklist li {
+    padding-left: 30px;
     background-repeat: no-repeat;
-    background-position: left ;
-    padding-left: 15px;
+    background-position: left center;
+    background-size: 20px 20px;
+}
+
+.checklist li {
+    background-image: url('../Images/icons_527578.png');
+}
+
+.checklist li.checked{
+    background-image: url('../Images/checked icon.png');
 }
