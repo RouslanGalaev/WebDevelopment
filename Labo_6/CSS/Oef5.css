@@ -1,28 +1,19 @@
-a::before {
-    content: '';
-    background-image: url("Labo_6/Images/icoon.png");
+/* CSS */
+.icon-link {
+    display: inline-block;                 /* zodat padding en background goed werken */
+    background-image: url('/Labo_6/Images/icoon.png');
     background-repeat: no-repeat;
-    background-position: left center;
-    display: inline-block; /* nodig om breedte/hoogte te hebben */
-    width: 15px; /* pas aan naar icoon grootte */
-    height: 15px;
-    margin-right: 5px; /* ruimte tussen icoon en tekst */
+    background-position: left center;      /* icoon links gecentreerd */
+    background-size: 16px 16px;            /* gewenste icoongrootte */
+    padding-left: 24px;                    /* ruimte maken voor het icoon */
+    line-height: 1.2;                      /* zorgt dat text goed uitlijnt */
+    text-decoration: none;                 /* optioneel: underline weghalen */
+    color: #1a73e8;                        /* linkkleur */
 }
-.linkIcoon::before {
-    content: '';
-    background-image: url("Labo_6/Images/icoon.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
+
+/* hover/focus styling voor duidelijkheid / toegankelijkheid */
+.icon-link:hover,
+.icon-link:focus {
+    text-decoration: underline;
+    outline: 2px solid transparent;        /* focus outline kan je aanpassen */
 }
-/*content: "";
-display: inline-block;
-width: 15px;
-height: 15px;
-background-image: url("../Images/icoon.png");
-background-repeat: no-repeat;
-background-position: left center;
-padding-left: 15px;*/
