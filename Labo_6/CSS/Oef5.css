@@ -1,6 +1,28 @@
-a{
-    background-image: url("../Images/icoon.png");
+a::before {
+    content: '';
+    background-image: url("Labo_6/Images/icoon.png");
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 15px;
+    display: inline-block; /* nodig om breedte/hoogte te hebben */
+    width: 15px; /* pas aan naar icoon grootte */
+    height: 15px;
+    margin-right: 5px; /* ruimte tussen icoon en tekst */
 }
+.linkIcoon::before {
+    content: '';
+    background-image: url("Labo_6/Images/icoon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+/*content: "";
+display: inline-block;
+width: 15px;
+height: 15px;
+background-image: url("../Images/icoon.png");
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 15px;*/
