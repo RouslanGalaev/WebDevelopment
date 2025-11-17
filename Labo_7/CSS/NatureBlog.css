@@ -1,0 +1,32 @@
+body{
+    margin: 0 auto;
+    width: 95%;
+    font-family: Arial, sans-serif;
+}
+
+section > header {
+    padding: 0 10px;
+    height: 75px;
+    background-image: url('/Labo_7/images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    align-items: flex-end;
+}
+section > nav{
+    background-color: #2B2D42;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+section > nav > a{
+    color:lightgreen;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+section
