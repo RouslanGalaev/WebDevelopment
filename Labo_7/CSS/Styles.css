@@ -1,0 +1,40 @@
+
+
+header {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: slategrey;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-image: url('/Labo_7/images/baby.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: left;
+}
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+
+footer {
+    padding: 10px;
+    color:rosybrown;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.stippeltjesrand{
+    border: 1px dotted lawngreen;
+}
