@@ -1,32 +1,47 @@
 body{
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     width: 95%;
     font-family: Arial, sans-serif;
 }
 
 section > header {
-    padding: 0 10px;
-    height: 75px;
+    padding-bottom: 50px;
     background-image: url('/Labo_7/images/header.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
     font-size: 25px;
-    align-items: flex-end;
+    text-align: left;
 }
 section > nav{
     background-color: #2B2D42;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-
+    justify-content: left;
 }
 
 section > nav > a{
     color:lightgreen;
     display: flex;
-    justify-content: space-around;
     text-align: left;
 }
-section
+
+section  article > header {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+section  article {
+    background-color: lightgray;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+section footer{
+    font-size: 10px;
+}
