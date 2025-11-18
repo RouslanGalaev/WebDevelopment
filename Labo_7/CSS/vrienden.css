@@ -17,7 +17,6 @@
     padding: 3px 10px;
 }
 
-/* ---------- HEADER ---------- */
 
 .datagrid table thead th {
     background: linear-gradient(to bottom, #006699 5%, #00557F 100%);
@@ -31,7 +30,6 @@
     border: none;
 }
 
-/* ---------- BODY ---------- */
 
 .datagrid table tbody td {
     color: #00557F;
@@ -53,7 +51,6 @@
     border-bottom: none;
 }
 
-/* ---------- FOOTER ---------- */
 
 .datagrid table tfoot td {
     padding: 0;
@@ -88,7 +85,6 @@
     background: linear-gradient(to bottom, #006699 5%, #00557F 100%);
 }
 
-/* Hover & Active */
 .datagrid table tfoot li.active a,
 .datagrid table tfoot li a:hover {
     text-decoration: none;

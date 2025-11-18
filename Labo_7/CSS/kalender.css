@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #000;
+    width: 50px;
+    height: 40px;
+}
+
+caption {
+    background-color: rgb(170,170,200);
+    font-weight: bold;
+    padding: 8px;
+}
+
+thead th {
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+td:nth-child(1),
+td:nth-child(7) {
+    background-color: rgb(255, 220, 220);
+}
+
+.grijs {
+    background-color: lightgray !important;
+    color: gray;
+}
+
+.feestdag {
+    background-color: rgb(250,120,120) !important;
+    font-weight: bold;
+}
