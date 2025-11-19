@@ -9,7 +9,7 @@ body{
 
 section > header {
     padding-bottom: 50px;
-    background-image: url('/Labo_7/images/header.jpg');
+    background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
