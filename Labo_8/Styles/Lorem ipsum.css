@@ -1,0 +1,19 @@
+/*.tekst p {*/
+/*    padding: 10px;           !* Binnenruimte van 10px rondom de tekst *!*/
+/*    display: block;          !* Element wordt als blok weergegeven (standaard voor <p>) *!*/
+/*    width: 50%;              !* Breedte van het element is 50% van de oudercontainer *!*/
+/*    border: black solid 1px; !* Zwarte rand van 1px rondom het element *!*/
+/*    float: left;             !* Element wordt naar links gefloat, zodat andere elementen ernaast kunnen staan *!*/
+/*    box-sizing: border-box;  !* Inclusief padding en border in de opgegeven breedte (50%) *!*/
+/*}*/
+
+.tekst p {
+    padding: 10px;                  /* Binnenruimte van 10px rondom de tekst */
+    display: block;                 /* Element wordt als blok weergegeven */
+    width: calc(50% - 10px);        /* Trek 10px af van 50% om ruimte voor marge te maken */
+    border: black solid 1px;        /* Zwarte rand van 1px rondom het element */
+    float: left;                    /* Element wordt naar links gefloat */
+    box-sizing: border-box;         /* Inclusief padding en border in de breedte */
+    margin-right: 10px;             /* Ruimte van 10px tussen kolommen */
+}
+
