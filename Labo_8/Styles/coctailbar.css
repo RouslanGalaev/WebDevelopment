@@ -1,0 +1,57 @@
+
+/* */
+body{
+    width:95%;
+    margin:auto;
+    font-family: verdana, helvetica,Arial, sans-serif;
+    font-size: 1.2em;
+}
+header{
+    text-align:center;
+}
+footer{
+    font-size:0.8em;
+    font-family: verdana, helvetica,Arial, sans-serif;
+}
+
+
+/* titels kleur en groote*/
+#content h1{
+    color:#007e7e;
+    font-size:150%;
+}
+#content h2{
+    color:#007e7e;
+    font-size:130%;
+}
+
+#elixirs h1{
+    color:black;
+    font-size:150%;
+}
+#elixirs h2{
+    color:darkred;
+    font-size:130%;
+}
+
+
+/* */
+#elixirs{
+    float: right;
+    width: calc(95% - 75%);
+}
+
+#content{
+    width:75%;
+}
+
+
+/*klassen*/
+.color{
+    background-color:#a7cece;
+    margin:30px;
+    padding:20px;
+    color:#444444;
+    border-style: dashed;
+    border-color: white;
+}
