@@ -2,16 +2,25 @@
 /* */
 body{
     width:95%;
-    margin:auto;
+    height:100%;
     font-family: verdana, helvetica,Arial, sans-serif;
     font-size: 1.2em;
+    margin: auto;
+
 }
 header{
     text-align:center;
 }
 footer{
+    clear: both;
     font-size:0.8em;
     font-family: verdana, helvetica,Arial, sans-serif;
+    text-align: center;
+    margin-top: max(3em, 3em);
+    padding: 12px 16px;
+}
+a{
+    color:black;
 }
 
 
@@ -40,8 +49,19 @@ footer{
     text-align:center;
     float: right;
     width: calc(95% - 75%);
-}
+    margin-right: 20px;
 
+    background-image: url('../images/cocktail.gif');
+    background-repeat: repeat-x;        /* herhaal horizontaal */
+    background-position: top center;    /* plaats bovenaan */
+    background-size: auto 40px;         /* zodat de gif past in de borderhoogte */
+}
+#elixirs a{
+    color:black;
+}
+#elixirs a:hover{
+    background-color: saddlebrown;
+}
 #content{
     width:70%;
 }
@@ -49,10 +69,9 @@ footer{
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-position: 0 2px; /* icoon links van de tekst, iets gecentreerd */
-    background-size: 20px 20px;
+    background-size: 30px 30px;
     padding-left: 30px;         /* ruimte voor icoontje */
     margin: 8px 0;
-
 }
 
 
@@ -64,4 +83,12 @@ footer{
     color:#444444;
     border-style: dashed;
     border-color: white;
+}
+
+.cd{
+    font-style: italic;
+}
+
+.artist{
+    font-weight: bold;
 }
