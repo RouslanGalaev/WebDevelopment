@@ -52,7 +52,7 @@ nav{
  }
 
  nav p{
-     color: white;
+     color: black;
      font-size: 90%;
      padding: 10px;
  }
@@ -107,7 +107,7 @@ main div img{
 }*/
 .foto {
     float: left;
-    width: 180px;           /* ongeveer een derde van de container */
+    width: 180px ;           /* ongeveer een derde van de container */
     margin: 20px;           /* ruimte tussen de foto's */
     box-sizing: border-box;
 }
