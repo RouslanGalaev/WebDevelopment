@@ -1,0 +1,17 @@
+article{
+    display: block;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+article h1{
+    font-weight: bold;
+}
+
+.fotorechts{
+float: right;
+}
+
+.fotolinks{
+float: left;
+}
