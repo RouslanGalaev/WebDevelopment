@@ -4,14 +4,35 @@ article{
     margin: 10px;
 }
 
-article h1{
+article h2{
     font-weight: bold;
+    padding: 10px;
+}
+article p{
+    padding: 10px;
+    font-size: 1.25em;
 }
 
-.fotorechts{
-float: right;
+
+article:nth-child(even) img {
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
 }
 
-.fotolinks{
-float: left;
+article:nth-child(odd) img {
+    float: right;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
 }
+
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+

@@ -1,0 +1,125 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+    font-family: arial, helvetica, sans-serif;
+}
+
+
+/* Header area*/
+header {
+    background-image: url('../Images/bgsky3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 200px;
+}
+header img{
+    position: absolute;
+    margin-left: 250px;
+    margin-bottom: 60px;
+    top: 80px;
+    right: 200px;
+}
+
+header p:first-of-type{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+}
+
+header p:last-of-type{
+    font-size: 240%;
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+/*nav area*/
+nav{
+    width: 25%;
+    background-color: #dddddddd;
+    border: 1px solid #99999999;
+    box-sizing: border-box;
+    float: right;
+}
+
+ nav h3{
+     color: white;
+     background-color: blue;
+     text-align: center;
+     font-size: 120%;
+ }
+
+ nav p{
+     color: white;
+     font-size: 90%;
+     padding: 10px;
+ }
+
+
+/*main gebied*/
+main{
+    width: 75%;
+    margin-right: 10px;
+}
+
+main div p{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main div p span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+main div p b{
+    font-weight: bolder;
+}
+
+main div img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* figure area*/
+/*main figure{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.foto{
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border: 1px dotted white;
+    background-color: white;
+
+}*/
+.foto {
+    float: left;
+    width: 180px;           /* ongeveer een derde van de container */
+    margin: 20px;           /* ruimte tussen de foto's */
+    box-sizing: border-box;
+}
+
+.foto img {
+    width: 100%;          /* afbeelding vult de div */
+    height: auto;
+}
+
+/* Clearfix om de container de floats te laten omsluiten */
+.gallery::after {
+    content: "";
+    display: block;
+    clear: both;
+}
