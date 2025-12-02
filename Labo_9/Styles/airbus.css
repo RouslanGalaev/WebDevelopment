@@ -5,7 +5,7 @@ body{
 }
 
 
-/* Header area*/
+    /* Header area*/
 header {
     background-image: url('../Images/bgsky3.jpg');
     background-repeat: no-repeat;
@@ -17,11 +17,12 @@ header img{
     position: absolute;
     margin-left: 250px;
     margin-bottom: 60px;
-    top: 80px;
-    right: 200px;
+    top: 60px;
+    right: 250px;
 }
 
 header p:first-of-type{
+    margin-top: 5px;
     font-size: 300%;
     font-weight: bold;
     font-style: italic;
@@ -35,8 +36,8 @@ header p:last-of-type{
 }
 
 
-/*nav area*/
-nav{
+    /*aside area*/
+aside{
     width: 25%;
     background-color: #dddddddd;
     border: 1px solid #99999999;
@@ -44,24 +45,24 @@ nav{
     float: right;
 }
 
- nav h3{
+ aside h3{
      color: white;
      background-color: blue;
      text-align: center;
      font-size: 120%;
  }
 
- nav p{
+ aside p{
      color: black;
      font-size: 90%;
      padding: 10px;
  }
 
 
-/*main gebied*/
+    /*main gebied*/
 main{
     width: 75%;
-    margin-right: 10px;
+    box-sizing: border-box;
 }
 
 main div p{
@@ -82,44 +83,63 @@ main div p b{
     font-weight: bolder;
 }
 
-main div img{
+.logo{
     float: left;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 /* figure area*/
-/*main figure{
-    background-color: white;
-    margin: 20px;
+main figure{
+    background-color: #99999999;
+    margin: 20px 0 0;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .foto{
-    margin: 20px;
     width: 180px;
     height: 180px;
-    padding: 10px;
-    border: 1px dotted white;
     background-color: white;
-
-}*/
-.foto {
-    float: left;
-    width: 180px ;           /* ongeveer een derde van de container */
-    margin: 20px;           /* ruimte tussen de foto's */
-    box-sizing: border-box;
+    border: 2px dotted #999999;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
 }
 
-.foto img {
-    width: 100%;          /* afbeelding vult de div */
-    height: auto;
+
+    /*nav area*/
+
+nav{
+    background-color: #666666;
 }
 
-/* Clearfix om de container de floats te laten omsluiten */
-.gallery::after {
-    content: "";
-    display: block;
-    clear: both;
+nav div{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav div ul li{
+    color: white;
+    line-height: 2em;
+}
+
+section a{
+    color: white;
+}
+    /*footer*/
+
+footer{
+    color: black;
+    background-color: white;
+    text-align: center;
 }
