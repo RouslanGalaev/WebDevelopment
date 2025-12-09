@@ -1,0 +1,16 @@
+div{
+    margin-bottom: 20px;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.light-grey{
+    background-color: lightgrey;
+}
+
+.grey,.light-grey{
+    background-clip: content-box;
+}
+
