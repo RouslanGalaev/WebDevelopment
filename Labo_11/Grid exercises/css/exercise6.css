@@ -1,2 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.container .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.block.block2{
+}
+
+.block.block1{
+
+}
+
+.block.block3{
+
+}
+
+.block.block4{
+
+}
 
 
