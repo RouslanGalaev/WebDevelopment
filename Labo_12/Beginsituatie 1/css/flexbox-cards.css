@@ -65,9 +65,9 @@ a {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.card:nth-child(2) {
-    margin: 5px;
-    
+.card{
+
 }
