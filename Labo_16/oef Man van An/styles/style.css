@@ -1,0 +1,4 @@
+/* maak de eerste paragraaf vet */
+p:first-of-type {
+    font-weight: bold;
+}
