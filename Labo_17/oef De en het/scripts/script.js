@@ -1,6 +1,6 @@
 const setup = () => {
     const mijnButton = document.getElementById("mijnButton");
-    const mijnTekstvak = document.getElementById("inputVeld");
+    const mijnTekstvak = document.getElementById("input");
 
     const vervangDeEnHet = () => {
         let inputTekst = mijnTekstvak.value; // Haal hier de tekst op
@@ -18,4 +18,13 @@ const setup = () => {
         return vervangTekst;
     }
 
-}
+    // koppel de knop aan de functie en zet het resultaat terug in het invoerveld
+    if (mijnButton && mijnTekstvak) {
+        mijnButton.addEventListener('click', () => {
+            const resultaat = vervangDeEnHet();
+            mijnTekstvak.value = resultaat;
+        });
+    }
+};
+
+window.addEventListener('DOMContentLoaded', setup);
