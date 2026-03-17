@@ -3,8 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+<form id="registratieForm">
+    <div>
+        <label for="txtVoornaam">Voornaam:</label>
+        <input type="text" id="txtVoornaam">
+        <span id="errVoornaam" class="error"></span>
+    </div>
+    <div>
+        <label for="txtFamilienaam">Familienaam:</label>
+        <input type="text" id="txtFamilienaam">
+        <span id="errFamilienaam" class="error"></span>
+    </div>
+    <div>
+        <label for="txtGeboortedatum">Geboortedatum (jjjj-mm-dd):</label>
+        <input type="text" id="txtGeboortedatum">
+        <span id="errGeboortedatum" class="error"></span>
+    </div>
+    <div>
+        <label for="txtEmail">Email:</label>
+        <input type="text" id="txtEmail">
+        <span id="errEmail" class="error"></span>
+    </div>
+    <div>
+        <label for="txtAantalKinderen">Aantal kinderen:</label>
+        <input type="text" id="txtAantalKinderen">
+        <span id="errAantalKinderen" class="error"></span>
+    </div>
+    <input type="button" id="btnValideer" value="Valideer">
+</form>
+
+<script src="scripts/script.js"></script>
 
 </body>
 </html>

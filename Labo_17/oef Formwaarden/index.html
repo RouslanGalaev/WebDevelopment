@@ -6,5 +6,30 @@
 </head>
 <body>
 
+<form>
+    <label><input type="checkbox" id="chkRoker"> is roker</label><br><br>
+
+    <label><input type="radio" name="taal" value="Nederlands"> Nederlands</label>
+    <label><input type="radio" name="taal" value="Frans"> Frans</label>
+    <label><input type="radio" name="taal" value="Engels"> Engels</label><br><br>
+
+    <label for="selBuurland">Favoriete buurland:</label>
+    <select id="selBuurland">
+        <option value="België">België</option>
+        <option value="Nederland">Nederland</option>
+        <option value="Frankrijk">Frankrijk</option>
+    </select><br><br>
+
+    <label for="selBestelling">Bestelling:</label><br>
+    <select id="selBestelling" multiple size="3">
+        <option value="Aardappelen">Aardappelen</option>
+        <option value="Brood">Brood</option>
+        <option value="Melk">Melk</option>
+    </select><br><br>
+
+    <input type="button" id="btnToon" value="Toon resultaat">
+</form>
+
+<script src="scripts/script.js"> </script>
 </body>
 </html>
