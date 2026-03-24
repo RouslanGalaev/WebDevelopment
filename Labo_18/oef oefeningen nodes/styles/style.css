@@ -1,0 +1,9 @@
+/* Voeg een style-tag toe voor de klasse .listitem */
+.listitem {
+    color: red;
+}
+
+.opvallend {
+    background-color: yellow;
+    font-weight: bold;
+}
