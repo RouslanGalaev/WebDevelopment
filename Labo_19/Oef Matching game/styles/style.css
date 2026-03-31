@@ -1,0 +1,17 @@
+#playField {
+    width: 500px;
+    gap: 10px;
+}
+
+.kaart {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+.matched {
+    cursor: default;
+    opacity: 0.5; /* Maak matchende kaarten lichter */
+    border: 2px solid green;
+}
