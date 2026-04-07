@@ -5,6 +5,35 @@
     <title>Title</title>
 </head>
 <body>
+<h1>Contact Manager</h1>
 
+<section>
+    <label for="lstPersonen">Lijst van personen:</label><br>
+    <select id="lstPersonen" size="10" style="width: 200px;">
+    </select>
+</section>
+
+<hr>
+
+<section id="formulier">
+    <div>
+        <label for="txtVoornaam">Voornaam:</label><br>
+        <input type="text" id="txtVoornaam">
+    </div>
+    <div>
+        <label for="txtFamilienaam">Familienaam:</label><br>
+        <input type="text" id="txtFamilienaam">
+    </div>
+    <div>
+        <label for="txtGeboorteDatum">Geboortedatum (YYYY-MM-DD):</label><br>
+        <input type="date" id="txtGeboorteDatum">
+    </div>
+
+    <br>
+    <button type="button" id="btnBewaren">Bewaren</button>
+    <button type="button" id="btnNieuw">Nieuw</button>
+</section>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>
