@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>ColorPicker Pro</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<h1>ColorPicker Pro</h1>
+
+<div id="sliderContainer">
+    <label>Rood: <span id="labelR">128</span></label>
+    <input type="range" class="colorSlider" id="sliderR" min="0" max="255" value="128">
+
+    <label>Groen: <span id="labelG">128</span></label>
+    <input type="range" class="colorSlider" id="sliderG" min="0" max="255" value="128">
+
+    <label>Blauw: <span id="labelB">128</span></label>
+    <input type="range" class="colorSlider" id="sliderB" min="0" max="255" value="128">
+</div>
+
+<div id="visualisatie"></div>
+
+<p id="tekstLabel">rgb(128, 128, 128)</p>
+
+<button id="btnSave">Sla kleur op als favoriet</button>
+<button id="btnClearAll">🗑Verwijder alle favorieten</button>
+
+<h2>Favorieten</h2>
+<div id="storage"></div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
